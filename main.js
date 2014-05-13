@@ -3407,11 +3407,11 @@ var items = [ {
 //   console.log(color.Images[0].hex_code);
 // })
 
-items.map(function(color) {
-  return color.Images[0].hex_code
-})
+// items.map(function(color) {
+//   return color.Images[0].hex_code
+// })
 
-var hexColor = ["C2B4AB", "875129", "9F9996", "897878", "A66E43", "B1B1AF", "B79880", "CCC4C1", "57828D", "656EBC", "CDB39B", "92846F", "A68B98", "7C253A", "589347", "685F55", "D4B9C2", "A3939C", "B47E6E", "A7888C", "CBBCAF", "CFC4B4", "EDDED9", "FFFFFF", "7D6349"]
+// var hexColor = ["C2B4AB", "875129", "9F9996", "897878", "A66E43", "B1B1AF", "B79880", "CCC4C1", "57828D", "656EBC", "CDB39B", "92846F", "A68B98", "7C253A", "589347", "685F55", "D4B9C2", "A3939C", "B47E6E", "A7888C", "CBBCAF", "CFC4B4", "EDDED9", "FFFFFF", "7D6349"]
 
 // Attempt to grab both the image urls as well as hex codes to the images.
 // Looked at using the jQuery wrap element that I saw mentioned in a number
