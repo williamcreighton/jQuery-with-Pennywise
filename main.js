@@ -3430,15 +3430,18 @@ var lastPart = ') " class="box"></div>'
 items.forEach(function(item){
    var totalString = firstPart + item.Images[0].url_170x135 + lastPart;
      $('.container').append(totalString);
+  //  var totalString = '<div class=“box”>' + item.hex_code + '</div>'
+  //    $('.box').last().append(totalString)
+  // })
      
    // var fullHover = hoverBefore + item.Images[0].hex_code + hoverAfter;
    //   $('.container').append(fullHover);
 
 });
 
-items.forEach(function(color){
-   $('.container').append(hexColor);
-})
+// items.forEach(function(color){
+//    $('.container').append(hexColor);
+// })
 
 // Was trying to add the images' hex_code color as the hover affect, to
 // no avail.
