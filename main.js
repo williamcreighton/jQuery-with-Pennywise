@@ -3021,16 +3021,19 @@ var items = [
 
 
 
-var firstPart = '<div style="background: url(';
-var lastPart = ') " class="box"></div>'
+
 
 
 // var hoverBefore = '<div style="background: #';
 // var hoverAfter =  ' " class="box:hover:after"></div>'
  
 items.forEach(function(item){
+   var firstPart = '<a href="' + item.url + '"><div style="background: url(';
+   var lastPart = ') " class="box"></div></a>'
+
    var totalString = firstPart + item.Images[0].url_170x135 + lastPart;
-     $('.container').append(totalString);
+   $('.container').append(totalString);
+ 
   //  var totalString = '<div class=“box”>' + item.hex_code + '</div>'
   //    $('.box').last().append(totalString)
   // })
